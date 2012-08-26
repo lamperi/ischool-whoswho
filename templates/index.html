@@ -7,17 +7,20 @@
 <script type="text/javascript" src="static/jquery.reveal.js"></script>
 </head>
 <body>
-<a href="https://github.com/you"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/davelester/ischool-whoswho"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork me on GitHub"></a>
 
 <div id="content">
+	
+	<div id="main">
 	<h1>Who is {{ featuredName }}?</h1>
 
 	<a href="#" class="profile-one" data-reveal-id="{{ featured1 }}"><img src='static/profilephotos/{{ handle1 }}.jpeg' class='{{ featured1 }}'></a><a href="#" class="profile-two" data-reveal-id="{{ featured2 }}"><img src='static/profilephotos/{{ handle2 }}.jpeg'></a><a href="#" class="profile-three" data-reveal-id="{{ featured3 }}"><img src='static/profilephotos/{{ handle3 }}.jpeg'  class='{{ featured3 }}'></a>
+	</div>
 
-</div>
-<div id="footer">
-	<!-- <h2>About this Site</h2> -->
-	<p></p>
+	<div id="footer">
+		<h2>About this Site</h2>
+		<p>Who's Who is a site to learn the names and faces of current students at the <a href="http://ischool.berkeley.edu">UC Berkeley School of Information</a>. Hacked together in an afternoon by <a href="http://davelester.org">Dave Lester</a>. <a href="http://www.flickr.com/photos/n8agrin/2073530456/">South Hall photo</a> credit Nate Agrin.</p>
+	</div>
 </div>
 
 <div id="featured" class="reveal-modal">
