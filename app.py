@@ -39,6 +39,8 @@ def index():
     order = [0, 1, 2]
     random.shuffle(order)
 
+    # for the record, this is a dump way of passing data to the template.. I didn't realize that Flask templates
+    # support logic for loops and multiple data structures. this and associated code above should be simplified
     return render_template('index.html', featuredName=featuredName, featuredFocus=featuredFocus, name1=name[order[0]], handle1=handle[order[0]], year1=year[order[0]], focus1=focus[order[0]], featured1=featured[order[0]], name2=name[order[1]], handle2=handle[order[1]], year2=year[order[1]], focus2=focus[order[1]], featured2=featured[order[1]], name3=name[order[2]], handle3=handle[order[2]], year3=year[order[2]], focus3=focus[order[2]], featured3=featured[order[2]])
 
 def chooseStudents(num=3):
