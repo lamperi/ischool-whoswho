@@ -1,6 +1,7 @@
-Who is Who? Game
-===============
+# Who is Who Game
 
-A web-based game to learn the names and faces of current students at the [UC Berkeley School of Information](http://ischool.berkeley.edu).
+A web-based game to learn the names and faces of current students at the [UC Berkeley School of Information](http://ischool.berkeley.edu). Developed by [@davelester](http://twitter.com/davelester), and online at [http://whoiswho.herokuapp.com/](http://whoiswho.herokuapp.com/)
 
-URL: [http://whoiswho.herokuapp.com/](http://whoiswho.herokuapp.com/)
+## license
+
+BSD
